@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+*{
+    font-family: "Outfit", sans-serif;
+}
+
+body{
+    background: hsl(217, 54%, 11%);
+}
+h1{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    color: hsl(0, 0%, 100%);
+}
+p{
+    margin-top: 14px;
+    color: hsl(215, 51%, 70%);
+}
+hr{
+    border: 0;
+    height: 1px;
+    background: hsl(215, 32%, 27%);
+}
+
+
+
+.main-content{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+}
+
+
+.card-bg{
+    
+    background:  hsl(218 54% 11% / 1); 
+    /* background:  hsl(217deg 11.54% 71.47%);  */
+    height: 500px;
+    width: 400px;
+    border-radius: 46px;
+}
+
+
+.card-block{
+    background: hsl(216, 50%, 16%);
+    margin: 40px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    padding: 20px;
+    border-radius: 10px;
+
+    box-shadow: 0px 20px 0px 12px hsl(217 56% 10% / 1);
+}
+
+
+.main-img img{
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+}
+
+
+.eth-clock{
+    display: flex;
+    height: 16px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}  
+.eth-clock p{
+    margin-top: 0px;
+    margin-left: 6px;
+}
+.eth-clock h2{
+    margin-top: 0px;
+    margin-left: 6px;
+    font-size: 16px;
+    color: hsl(178, 100%, 50%);
+}
+.eth-clock div{
+    height: 20px;
+    display: flex;
+} 
+
+
+.avatar-name{
+    display: flex;
+}
+.avatar-name img{
+    height:34px; 
+    border: 1px solid hsl(0, 0%, 100%); 
+    border-radius: 50%;
+}
+.avatar-name p{
+    margin: 10px;
+}
+.avatar-name h3{
+    margin-top: 9px;
+    font-size: 17px;
+    color: hsl(0, 0%, 100%);
+}
+
