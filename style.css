@@ -64,13 +64,17 @@ hr{
 .card-content{
     margin-top: 14px;
 }
-.main-img img{
+
+
+.main-img {
+    display: flex;
+    justify-content: center;
+}
+
+.main-img img {
     width: 100%;
     max-width: 400px;
     border-radius: 10px;
-    display: flex;
-    justify-content: center;
-
 }
 
 .eye-view{
@@ -83,7 +87,6 @@ hr{
     background-color: hsla(178, 100%, 50%, 0.4);
     padding: 116px;
     border-radius: 10px;
-
 }
 .main-img:hover .eye-view{
     opacity: 1;
