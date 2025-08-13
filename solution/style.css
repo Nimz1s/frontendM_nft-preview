@@ -8,14 +8,21 @@
 body{
     background: hsl(217, 54%, 11%);
 }
-h1{
+.Name-card{
     margin-top: 10px;
     margin-bottom: 0px;
     color: hsl(0, 0%, 100%);
+    font-size: 18px;
+
+    text-decoration: none;
+}
+.Name-card:hover{
+    color: hsl(178, 100%, 50%);
 }
 p{
     margin-top: 14px;
     color: hsl(215, 51%, 70%);
+    font-size: 14px;
 }
 hr{
     border: 0;
@@ -37,7 +44,6 @@ hr{
     
     background:  hsl(218 54% 11% / 1); 
     /* background:  hsl(217deg 11.54% 71.47%);  */
-    height: 500px;
     width: 400px;
     border-radius: 46px;
 }
@@ -55,10 +61,32 @@ hr{
 }
 
 
+.card-content{
+    margin-top: 14px;
+}
 .main-img img{
     width: 100%;
     max-width: 400px;
     border-radius: 10px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.eye-view{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    background-color: hsla(178, 100%, 50%, 0.4);
+    padding: 116px;
+    border-radius: 10px;
+
+}
+.main-img:hover .eye-view{
+    opacity: 1;
 }
 
 
@@ -95,9 +123,12 @@ hr{
 .avatar-name p{
     margin: 10px;
 }
-.avatar-name h3{
-    margin-top: 9px;
-    font-size: 17px;
+.avatar-name a{
     color: hsl(0, 0%, 100%);
+    text-decoration: none;
 }
+.avatar-name a:hover{
+    color: hsl(178, 100%, 50%);
+}
+
 
